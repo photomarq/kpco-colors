@@ -1,0 +1,469 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://unpkg.com https://d3js.org https://threejs.org https://cdn.plot.ly https://stackpath.bootstrapcdn.com https://maps.googleapis.com https://cdn.tailwindcss.com https://ajax.googleapis.com https://kit.fontawesome.com https://cdn.datatables.net https://maxcdn.bootstrapcdn.com https://code.highcharts.com https://tako-static-assets-production.s3.amazonaws.com https://www.youtube.com https://fonts.googleapis.com https://fonts.gstatic.com https://pfst.cf2.poecdn.net https://puc.poecdn.net https://i.imgur.com https://wikimedia.org https://*.icons8.com https://*.giphy.com https://picsum.photos https://images.unsplash.com; frame-src 'self' https://www.youtube.com https://trytako.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base Color Blues compared with Neutrals</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            margin-top: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .color-pair {
+            display: flex;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .color-pair-info {
+            padding: 15px;
+            flex: 1;
+        }
+        
+        .color-pair-preview {
+            padding: 15px;
+            flex: 1;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 60px;
+        }
+        
+        .contrast-value {
+            font-weight: bold;
+            margin-top: 8px;
+        }
+        
+        .compliance-level {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 10px;
+            font-size: 0.85em;
+        }
+        
+        .aa {
+            background: #66d9a8;
+            color: #0f3d21;
+        }
+        
+        .aaa {
+            background: #2ecc71;
+            color: #0f3d21;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #08a8e8;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .color-pair {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html" class="back-link">← Back to Index</a>
+    
+    <h1>Accessibility Compliant Color Pairs</h1>
+    
+    <section class="section">
+        <h2>Base Color Blues compared with Neutrals</h2>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> blue900 (#001f2d)</div>
+                <div><strong>Text:</strong> neutral200 (#c0c0c0)</div>
+                <div class="contrast-value">Contrast Ratio: 12.18
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #001f2d; color: #c0c0c0;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> blue900 (#001f2d)</div>
+                <div><strong>Text:</strong> neutral100 (#e0e0e0)</div>
+                <div class="contrast-value">Contrast Ratio: 16.88
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #001f2d; color: #e0e0e0;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> blue800 (#002f42)</div>
+                <div><strong>Text:</strong> neutral200 (#c0c0c0)</div>
+                <div class="contrast-value">Contrast Ratio: 10.40
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #002f42; color: #c0c0c0;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> blue800 (#002f42)</div>
+                <div><strong>Text:</strong> neutral100 (#e0e0e0)</div>
+                <div class="contrast-value">Contrast Ratio: 14.42
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #002f42; color: #e0e0e0;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> blue700 (#003b52)</div>
+                <div><strong>Text:</strong> neutral200 (#c0c0c0)</div>
+                <div class="contrast-value">Contrast Ratio: 9.02
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #003b52; color: #c0c0c0;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> blue700 (#003b52)</div>
+                <div><strong>Text:</strong> neutral100 (#e0e0e0)</div>
+                <div class="contrast-value">Contrast Ratio: 12.51
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #003b52; color: #e0e0e0;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> blue600 (#005273)</div>
+                <div><strong>Text:</strong> neutral200 (#c0c0c0)</div>
+                <div class="contrast-value">Contrast Ratio: 5.99
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #005273; color: #c0c0c0;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> blue600 (#005273)</div>
+                <div><strong>Text:</strong> neutral100 (#e0e0e0)</div>
+                <div class="contrast-value">Contrast Ratio: 8.31
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #005273; color: #e0e0e0;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> blue200 (#9be3ff)</div>
+                <div><strong>Text:</strong> neutral900 (#121212)</div>
+                <div class="contrast-value">Contrast Ratio: 12.93
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #9be3ff; color: #121212;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> blue200 (#9be3ff)</div>
+                <div><strong>Text:</strong> neutral800 (#2a2a2a)</div>
+                <div class="contrast-value">Contrast Ratio: 8.23
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #9be3ff; color: #2a2a2a;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> blue100 (#d7f4ff)</div>
+                <div><strong>Text:</strong> neutral900 (#121212)</div>
+                <div class="contrast-value">Contrast Ratio: 17.00
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #d7f4ff; color: #121212;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> blue100 (#d7f4ff)</div>
+                <div><strong>Text:</strong> neutral800 (#2a2a2a)</div>
+                <div class="contrast-value">Contrast Ratio: 10.83
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #d7f4ff; color: #2a2a2a;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral900 (#121212)</div>
+                <div><strong>Text:</strong> blue400 (#23c1ff)</div>
+                <div class="contrast-value">Contrast Ratio: 7.38
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #121212; color: #23c1ff;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral900 (#121212)</div>
+                <div><strong>Text:</strong> blue300 (#5fd2ff)</div>
+                <div class="contrast-value">Contrast Ratio: 9.48
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #121212; color: #5fd2ff;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral900 (#121212)</div>
+                <div><strong>Text:</strong> blue200 (#9be3ff)</div>
+                <div class="contrast-value">Contrast Ratio: 12.93
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #121212; color: #9be3ff;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral900 (#121212)</div>
+                <div><strong>Text:</strong> blue100 (#d7f4ff)</div>
+                <div class="contrast-value">Contrast Ratio: 17.00
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #121212; color: #d7f4ff;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral800 (#2a2a2a)</div>
+                <div><strong>Text:</strong> blue400 (#23c1ff)</div>
+                <div class="contrast-value">Contrast Ratio: 4.70
+                    <span class="compliance-level aa">AA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #2a2a2a; color: #23c1ff;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral800 (#2a2a2a)</div>
+                <div><strong>Text:</strong> blue300 (#5fd2ff)</div>
+                <div class="contrast-value">Contrast Ratio: 6.04
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #2a2a2a; color: #5fd2ff;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral800 (#2a2a2a)</div>
+                <div><strong>Text:</strong> blue200 (#9be3ff)</div>
+                <div class="contrast-value">Contrast Ratio: 8.23
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #2a2a2a; color: #9be3ff;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral800 (#2a2a2a)</div>
+                <div><strong>Text:</strong> blue100 (#d7f4ff)</div>
+                <div class="contrast-value">Contrast Ratio: 10.83
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #2a2a2a; color: #d7f4ff;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral200 (#c0c0c0)</div>
+                <div><strong>Text:</strong> blue900 (#001f2d)</div>
+                <div class="contrast-value">Contrast Ratio: 12.18
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #c0c0c0; color: #001f2d;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral200 (#c0c0c0)</div>
+                <div><strong>Text:</strong> blue800 (#002f42)</div>
+                <div class="contrast-value">Contrast Ratio: 10.40
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #c0c0c0; color: #002f42;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral200 (#c0c0c0)</div>
+                <div><strong>Text:</strong> blue700 (#003b52)</div>
+                <div class="contrast-value">Contrast Ratio: 9.02
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #c0c0c0; color: #003b52;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral200 (#c0c0c0)</div>
+                <div><strong>Text:</strong> blue600 (#005273)</div>
+                <div class="contrast-value">Contrast Ratio: 5.99
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #c0c0c0; color: #005273;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral100 (#e0e0e0)</div>
+                <div><strong>Text:</strong> blue900 (#001f2d)</div>
+                <div class="contrast-value">Contrast Ratio: 16.88
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #e0e0e0; color: #001f2d;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral100 (#e0e0e0)</div>
+                <div><strong>Text:</strong> blue800 (#002f42)</div>
+                <div class="contrast-value">Contrast Ratio: 14.42
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #e0e0e0; color: #002f42;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral100 (#e0e0e0)</div>
+                <div><strong>Text:</strong> blue700 (#003b52)</div>
+                <div class="contrast-value">Contrast Ratio: 12.51
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #e0e0e0; color: #003b52;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+        
+        <div class="color-pair">
+            <div class="color-pair-info">
+                <div><strong>Background:</strong> neutral100 (#e0e0e0)</div>
+                <div><strong>Text:</strong> blue600 (#005273)</div>
+                <div class="contrast-value">Contrast Ratio: 8.31
+                    <span class="compliance-level aaa">AAA</span>
+                </div>
+            </div>
+            <div class="color-pair-preview" style="background-color: #e0e0e0; color: #005273;">
+                Aa Bb Cc 123
+            </div>
+        </div>
+    </section>
+
+
+</body></html>
